@@ -162,11 +162,35 @@ main{
      color: brown;
    }
    .div3 p img {
-    width: 5%;
+    width: 16%;
    }
    .div3 p .img1{
 
     background-color:rgb(223, 236, 236); 
     color: white;
+   }
+   .main-para{
+         margin-top: 10px ;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+   }
+   .div6 {
+    display: flex;
+    border: 1px solid brown;
+     border-radius: 100px;
+     background-color: rgb(184, 130, 130);
+     border: none;
+     padding: 2px;
+   }
+   .div6 p{
+    margin-left: 2px;
+
+   }
+   .div5{
+    margin-left:20px;
+   }
+   .div6 img{
+    width: 23%;
+    margin-left: 3px;
    }
 /* section :end */
