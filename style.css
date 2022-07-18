@@ -46,6 +46,7 @@ main{
     margin: 20px auto;
     background-color: rgb(245, 238, 238);
     padding: 50px 20px;
+    border-radius: 20px;
     
 }
 .main-div{
@@ -125,3 +126,47 @@ main{
   }
 
 /* top-blogs :end */
+
+
+/* section :start  */
+
+   .section-1{
+            width: 70%;
+            margin:  40px auto;
+            background-color: rgb(245, 238, 238);
+            border-radius: 20px;
+   }
+ .section-1 h1{
+      font-size:  2em;
+      margin: 40px 20px;
+      padding:  30px 10px;
+      color: indigo;
+ }
+   .main-div3{
+     display: flex;
+     justify-content: space-around;
+   }
+   .div3{
+    width: 29%;
+    box-shadow:  2px 2px 2px gray;
+    border-radius: 10px;
+    margin-bottom: 30px  ;
+    background-color: white;
+    padding: 10px;
+   }
+   .div3 img{
+    width: 100%;
+   }
+   .div3 p {
+     font-weight: bold;
+     color: brown;
+   }
+   .div3 p img {
+    width: 5%;
+   }
+   .div3 p .img1{
+
+    background-color:rgb(223, 236, 236); 
+    color: white;
+   }
+/* section :end */
