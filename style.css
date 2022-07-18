@@ -7,7 +7,7 @@
 }
 header{
     width: 100%;
-    background-color: rgb(30, 30, 92);
+    background-color: indigo;
 }
 nav{
     width: 80%;
@@ -20,7 +20,7 @@ nav{
     display: flex;
 }
 .logo img{
-    background-color: rgb(30, 30, 92);;
+    background-color: indigo;
     width: 10%;
 }
 .logo h1{
@@ -40,4 +40,42 @@ nav{
 }
 .nav-bar img{
     margin-left: 15px;
+}
+main{
+    width: 75%;
+    margin: 20px auto;
+    background-color: rgb(245, 238, 238);
+    padding: 50px 20px;
+    
+}
+.main-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+}
+.top-player hr{
+     border:  1px solid gray;
+     width: 95%;
+     margin: 0px auto;
+     margin-top: 80px;
+}
+.top-player h1{
+    margin: 30px 10px;
+    color: indigo;
+
+}
+.div1{
+    display: flex;
+    justify-content: center;
+}
+.div1 h4{
+    font-size: 1em;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.div1 img{
+    width: 15%;
 }
